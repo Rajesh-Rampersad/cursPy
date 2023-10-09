@@ -19,3 +19,16 @@ print(punto.get("x"))
 
 for valor in punto.items():
     print(valor)
+    
+for llave, valor in punto.items():
+    print(llave, valor)
+    
+usuarios = [
+    {"id": 1, "nombre": "pedro"},
+    {"id": 2, "nombre": "jose"},
+    {"id": 3, "nombre": "carlos"},
+    {"id": 4, "nombre": "felipe"}
+]
+
+for usuario in usuarios:
+    print(usuario["id"])
