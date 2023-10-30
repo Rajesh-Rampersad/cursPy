@@ -7,3 +7,8 @@ print(pila)
 ultimoElemento = pila.pop()
 print(ultimoElemento)
 print(pila)
+print(pila[1])
+pila.pop()
+pila.pop()
+if not pila:
+    print("pila vacia")
