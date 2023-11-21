@@ -4,7 +4,7 @@ class Perro:
         self.nombre = nombre
         self.edad = edad
         
-    def __del__ (self):
+    def __del__ (self):#destructor
         print(f"Chao perro 🥺 {self.nombre}")
         
     def habla(self):
