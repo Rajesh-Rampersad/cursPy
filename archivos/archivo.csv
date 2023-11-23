@@ -1,0 +1,5 @@
+twit_id,user_id,text
+1000,1,este es un twit
+1001,2,otro twit
+1002,3,otro twit
+1000,1,texto modificado
